@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Spartan", sans-serif;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, repeat;    
+    background-blend-mode: lighten;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7% 10%;
+}
+
+.wrapper {
+    flex: 1 1 375px;
+    margin: 30px;
+}
+
+.content {
+    padding-right: 60px;
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 42px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.6;
+}
+
+.star-bar {
+    max-width: 50%;
+}
+
+.box {
+    margin-bottom: 5px;
+    width: 82%;
+    padding: 5px;
+    background-color: hsl(300,24%, 96%);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+.stars {
+    margin: 5px 15px;
+}
+
+.reviews p {
+    color: hsl(300, 43%, 22%);
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.report-guru {
+    transform: translateX(10%);
+}
+
+.best-tech {
+    transform: translateX(20%);
+}
+
+.article-card {
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.article-box {
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 35px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profiledesc {
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.purple {
+    font-size: 12px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.opinion p {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.irene {
+    transform: translateY(10%);
+}
+
+.anne {
+    transform: translateY(20%);
+}
+
